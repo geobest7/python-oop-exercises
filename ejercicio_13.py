@@ -2,7 +2,7 @@
 Definir una clase Vector4D que represente un vector de 4 dimensiones con 4 números como atributos: u, v, x, y.
 
 La clase Vector4D debe contener el constructor y los siguientes métodos:
-    - __init__(self,...): un constructor que permite inicializar todas las cordinadas del vector.
+    - __init__(self,...): un constructor que permite inicializar todas las coordinadas del vector.
     - __add__(self,vector): este método especial nos permite sumar dos vectores de cuatro dimensiones.
     - __sub__(self, vector): este método especial nos permite restar dos vectores de cuatro dimensiones.
     - __mul__(self, vector): este método especial nos permite multiplicar dos vectores.

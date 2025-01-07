@@ -22,14 +22,16 @@ class Circulo:
     def area(self):
         pi = 3.14159
         return (self.R**2) * pi
+    
     def perimetro(self):
         pi = 3.14159
         return self.R * 2 * pi
+    
     def mostrar_propriedades(self):
         return f"El circulo tiene radio de {self.R} cm, las cordenadas de su centro O son ({self.x}, {self.y})"
     
 circulo1= Circulo(3, 4, 5)
 print(circulo1.mostrar_propriedades())
-print("El perímetro del círculo1 es ", round(circulo1.perimetro(), 2))
-print("El área del circulo1 es: ", round(circulo1.area(), 2))
+print("El perímetro del círculo es ", round(circulo1.perimetro(), 2))
+print("El área del circulo es: ", round(circulo1.area(), 2))
 

@@ -4,7 +4,7 @@ Luego, debes crear una sublase Media que herede de las clases Video y Audio.
 Aquí están los atributos que cada clase debe contener:
     - Para la clase Video: título del video, duración en minutos y categoría del video.
     - Para la clase Audio: título del audio y nombre del artista.
-    - Para la clase Media: títuloo del media, su categoría, su duración y el nombre del artista.
+    - Para la clase Media: título del media, su categoría, su duración y el nombre del artista.
 Cada clase tiene su proprio constructor y sus proprios métodos, aquí està la lista de métodos a crear
 para cada clase:
 

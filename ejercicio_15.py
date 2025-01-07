@@ -28,3 +28,7 @@ print(f"ID de empleado_1: {id(empleado_1)}")
 print(f"ID de empleado_2: {id(empleado_2)}")
 
 del empleado_1
+
+print(f"ID de empleado_2: {id(empleado_2)}")
+
+

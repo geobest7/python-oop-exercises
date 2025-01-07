@@ -4,7 +4,7 @@ resultado obtenido después de lanzar el dado
 
 La clase Dado debe contener el constructor y los siguientes métodos:
 - __init__(self, resultado=0). un constructor que permite inicializar el atributo
-  oredeterminado igual a 0.
+  predeterminado igual a 0.
 - lanzar_dado(self): un método que permite lanzar el dado y obtener un 
   resultado aleatorio entre 1 y 6.
 - mostra_puntos(self): un método que permite mostrar loa puntos obtenidos
@@ -21,7 +21,7 @@ import random
 
 class Dado:
     def __init__(self, resultado=0):
-        self.resultafo = resultado
+        self.resultado = resultado
         
     def lanzar_dado(self):
         self.resultado =  random.randint(1, 6)

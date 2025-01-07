@@ -5,7 +5,7 @@ La clase Nota debe contener el constructor y el siguiente método:
 inicializar los atributos del clase Nota.
 - ha_pasado(self): un método que permite verificar si un estudiante ha aprobado el examen.
 Si la nota del estudiante supera los 75 puntos, entonces el estudiante ha aprobado, de lo 
-contrarrio ha reprobado. Este métodoo muestra en la consola si el estudiante ha aprobado o reprobado. ( Ver visualización en la consola)
+contrario ha reprobado. Este métodoo muestra en la consola si el estudiante ha aprobado o reprobado. ( Ver visualización en la consola)
 
 """
 
