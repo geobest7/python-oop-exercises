@@ -1,6 +1,6 @@
 """ 
 Definir una clase ManipuladoresArchivos que contien dos atributos: un atributo que hace referecia
-al nombre del archivo (o ruta) y un atributo que contiene el objrto retornado después de abrir el
+al nombre del archivo (o ruta) y un atributo que contiene el objeto retornado después de abrir el
 archivo en modo lectura y escritura.
 
 La clase ManipuladoresArchivos debe contener un constructor, un destructor y el siguiente método:
@@ -36,5 +36,5 @@ class ManipuladoresArchivos:
             print(f'Se ha escrito en el archivo: {frase}')
             
 archivo = ManipuladoresArchivos('ejemplo.txt')
-archivo.escribir_archivo('Forza Milan')
+archivo.escribir_archivo('Forza Italia')
 del archivo

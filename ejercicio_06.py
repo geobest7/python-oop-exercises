@@ -20,7 +20,7 @@ class Persona:
         self.genero = genero
         
     def presentarse(self):
-        return ('Hola soy {}, mi genero es {} y tengo {}'.format(self.nombre, self.edad, self.genero))
+        return ('Hola soy {},  tengo {} años y  mi genero es {}'.format(self.nombre, self.edad, self.genero))
 
     def esAdulto(self):
         if self.edad < 18:

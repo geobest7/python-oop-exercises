@@ -59,8 +59,8 @@ class Calculo_Numerico:
             return False
         for i in range(2, int(self.numero ** 0.5) + 1):
             if self.numero % i == 0:
-                return print("El número no es Primo")
-        return print("El número es Primo")
+                return "El número no es Primo"
+        return "El número es Primo"
     
     def esPar(self):
         if self.numero % 2 == 0:
@@ -75,7 +75,7 @@ divisor = primer_calculo.lista_divisores()
 factorial= primer_calculo.calculo_factorial()
 print(f"Los divisores de {primer_calculo.numero} son: ", divisor)
 print(f"El número factorial de {primer_calculo.numero} es: ", factorial)
-primer_calculo.esPrimo()  
+print(primer_calculo.esPrimo())
 primer_calculo.esPar()     
         
     
