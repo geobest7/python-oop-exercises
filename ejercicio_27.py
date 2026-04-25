@@ -1,6 +1,6 @@
 """
 En este ejercicio, crearemos una clase GeneradorContrasena que nos ayudará a generar contraseñas 
-eligiendo los parámetros que nuestra contraseña debe stisfacer.
+eligiendo los parámetros que nuestra contraseña debe satisfacer.
 
 La clase GeneradorContrasena contiene cinco atributos:
     - un atributo que indica la longitud de la contraseña

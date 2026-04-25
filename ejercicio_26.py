@@ -4,7 +4,7 @@ carrito de compras de un comercio electrónico.
 
 La clase CarritoCompra contiene tres variables de instancia: una variable de instancia que 
 nos permitirá almacenar el articulo y su coste total en carrito, una segunda variable de instancia
-para almcenar el articúlo y su canitdad en el carrito, y finalmente una tercera para almacenar el 
+para almcenar el articúlo y su cantidad en el carrito, y finalmente una tercera para almacenar el 
 articúlo y su precio unitario.
 
 Indicación: el diccionario es la esctrucutra más adecuada para crear estos atributos de clase.
